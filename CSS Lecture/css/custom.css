@@ -1,0 +1,32 @@
+h1{
+    color:red;
+    text-align:center;
+}
+/* Id selector*/
+#idselector{
+    color:brown;
+    text-indent:50px;
+    line-height:30px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+/* Class selector*/
+.classselector{
+    color:green;
+    text-transform: capitalize;
+    font-size:20px;
+}
+
+p:target{
+    color:red;
+    word-spacing: 10px;
+}
+input[type="radio"]:checked + label{
+    color:red;
+    font-style:italic;
+}
+input[type="checkbox"]:enabled + label{
+    color:red;
+}
