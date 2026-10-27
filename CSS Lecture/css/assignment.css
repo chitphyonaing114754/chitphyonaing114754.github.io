@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg-color{
+    background-color:darkslategrey;
+}
+.container{
+    width:350px;
+    border-radius: 16px;
+    background-color:aliceblue;
+    margin:90px auto 50px;
+    padding:40px 20px 40px 40px;
+}
+.move-center{
+    text-align:center;
+}
+.form-box{
+    margin-top:20px;
+
+}
+.form-label{
+    display:block;
+    margin-bottom:8px;
+}
+.input-type{
+    width:300px;
+    height:30px;
+    padding:0 10px;  
+    border:1px solid black;
+    border-radius: 5px; 
+    margin:0 0 10px 0;
+    display:block;
+}
+.input-type:focus{
+border-color:blue;
+outline:none;
+}
+.checkboxTag{
+    margin:24px 6px 0;
+    display: inline-block;
+}
+.linkTag{
+    margin:0 0 24px 80px;
+    display: inline-block;
+    text-decoration: none;
+}
+.linkTag:hover{
+    color:blue;
+}
+.loginButton{
+    width:300px;
+    height:30px;
+    border:1px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    margin-left:12px;
+    margin-bottom:24px;
+}
+.loginButton:hover{
+    background-color:dodgerblue;
+  
+}
+.spanTag{
+    margin-left:58px;
+}
+.ankerTag{
+    text-decoration: none;
+}
+.ankerTag:hover{
+    color:blue;
+}
